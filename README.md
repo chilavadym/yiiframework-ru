@@ -43,7 +43,7 @@ yii migrate
 ### 4. Setup webserver
 
 Point your werbserver root to `web` directory.
-There's [nginx config you can check](https://github.com/samdark/yiiframework-ru/tree/master/server/nginx).
+There's [nginx config you can check](https://github.com/chilavadym/yiiframework-ru/tree/master/server/nginx).
 
 Alternative installation (Vagrant)
 ----------------------------------
@@ -56,7 +56,7 @@ Alternative installation (Vagrant)
 3. Prepare project:
    
    ```bash
-   git clone https://github.com/samdark/yiiframework-ru.git
+   git clone https://github.com/chilavadym/yiiframework-ru.git
    cd yiiframework-ru/vagrant/config
    cp vagrant-local.example.yml vagrant-local.yml
    ```
@@ -84,7 +84,7 @@ After that you can access project locally by URL: http://l.yiiframework.ru
 3. Reboot
 4. Create GitHub [personal API token](https://github.com/blog/1509-personal-api-tokens)
 5. Prepare project:
-   * download repo [yiiframework-ru](https://github.com/samdark/yiiframework-ru/archive/master.zip)
+   * download repo [yiiframework-ru](https://github.com/chilavadym/yiiframework-ru/archive/master.zip)
    * unzip it
    * go into directory `yiiframework-ru-master/vagrant/config`
    * copy `vagrant-local.example.yml` to `vagrant-local.yml`
